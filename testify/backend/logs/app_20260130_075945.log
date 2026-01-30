@@ -1,0 +1,19 @@
+2026-01-30 07:59:45,497 - main - INFO - === Logging system initialized ===
+2026-01-30 07:59:45,497 - main - INFO - Log file: logs/app_20260130_075945.log
+2026-01-30 07:59:45,498 - main - INFO - Log level: INFO
+2026-01-30 07:59:45,498 - main - INFO - Timestamp: 20260130_075945
+2026-01-30 07:59:46,410 - main - WARNING - Failed to import module 'routers.aihub': No module named 'sse_starlette'
+2026-01-30 07:59:47,085 - main - INFO - Included router: routers.auth.router
+2026-01-30 07:59:47,126 - main - INFO - Included router: routers.classes.router
+2026-01-30 07:59:47,146 - main - INFO - Included router: routers.custom_classes.router
+2026-01-30 07:59:47,169 - main - INFO - Included router: routers.custom_exams.router
+2026-01-30 07:59:47,190 - main - INFO - Included router: routers.exams.router
+2026-01-30 07:59:47,192 - main - INFO - Included router: routers.health.router
+2026-01-30 07:59:47,218 - main - INFO - Included router: routers.results.router
+2026-01-30 07:59:47,240 - main - INFO - Included router: routers.settings.router
+2026-01-30 07:59:47,266 - main - INFO - Included router: routers.storage.router
+2026-01-30 07:59:47,290 - main - INFO - Included router: routers.submissions.router
+2026-01-30 07:59:47,303 - main - INFO - Included router: routers.user.router
+2026-01-30 07:59:47,337 - main - INFO - Included router: routers.users.router
+2026-01-30 07:59:47,339 - main - INFO - === Application startup initiated ===
+2026-01-30 07:59:47,340 - main - INFO - === Application startup completed successfully ===

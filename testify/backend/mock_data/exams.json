@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "class_id": 1,
+        "title": "Introduction to Programming Quiz",
+        "description": "Basic programming concepts and syntax",
+        "duration_minutes": 30,
+        "total_score": 100,
+        "questions": "[{\"id\": 1, \"type\": \"multiple_choice\", \"question\": \"What is a variable?\", \"options\": [\"A storage location\", \"A function\", \"A loop\", \"A class\"], \"correct_answer\": \"A storage location\", \"points\": 25}, {\"id\": 2, \"type\": \"multiple_choice\", \"question\": \"Which is a programming language?\", \"options\": [\"HTML\", \"Python\", \"CSS\", \"JSON\"], \"correct_answer\": \"Python\", \"points\": 25}, {\"id\": 3, \"type\": \"essay\", \"question\": \"Explain what an algorithm is in your own words.\", \"points\": 25}, {\"id\": 4, \"type\": \"coding\", \"question\": \"Write a function that adds two numbers.\", \"points\": 25}]",
+        "availability_status": "enabled",
+        "created_by": 2,
+        "created_at": "2026-01-29 12:00:00"
+    },
+    {
+        "id": 2,
+        "class_id": 1,
+        "title": "Data Structures Midterm",
+        "description": "Comprehensive test on arrays, lists, and trees",
+        "duration_minutes": 60,
+        "total_score": 100,
+        "questions": "[{\"id\": 1, \"type\": \"multiple_choice\", \"question\": \"What is the time complexity of binary search?\", \"options\": [\"O(n)\", \"O(log n)\", \"O(n^2)\", \"O(1)\"], \"correct_answer\": \"O(log n)\", \"points\": 20}, {\"id\": 2, \"type\": \"enumeration\", \"question\": \"List three types of tree traversal methods.\", \"correct_answers\": [\"Inorder\", \"Preorder\", \"Postorder\"], \"points\": 30}, {\"id\": 3, \"type\": \"essay\", \"question\": \"Compare and contrast arrays and linked lists.\", \"points\": 50}]",
+        "availability_status": "disabled",
+        "created_by": 2,
+        "created_at": "2026-01-29 12:30:00"
+    }
+]

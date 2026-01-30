@@ -1,0 +1,41 @@
+{
+    "title": "results",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "submission_id": {
+            "type": "integer",
+            "description": "ID of the submission"
+        },
+        "student_id": {
+            "type": "integer",
+            "description": "ID of the student"
+        },
+        "exam_id": {
+            "type": "integer",
+            "description": "ID of the exam"
+        },
+        "score": {
+            "type": "number",
+            "description": "Final score"
+        },
+        "feedback": {
+            "type": "string",
+            "description": "Teacher feedback"
+        },
+        "graded_at": {
+            "type": "string",
+            "description": "Grading completion timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "submission_id",
+        "student_id",
+        "exam_id",
+        "score"
+    ]
+}

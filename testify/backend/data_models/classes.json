@@ -1,0 +1,36 @@
+{
+    "title": "classes",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "class_name": {
+            "type": "string",
+            "description": "Name of the class"
+        },
+        "subject": {
+            "type": "string",
+            "description": "Subject of the class"
+        },
+        "teacher_id": {
+            "type": "integer",
+            "description": "ID of the teacher who created the class"
+        },
+        "student_ids": {
+            "type": "string",
+            "description": "JSON array of enrolled student IDs"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Class creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "class_name",
+        "subject",
+        "teacher_id"
+    ]
+}

@@ -1,0 +1,20 @@
+2026-01-30 07:11:42,087 - main - INFO - === Logging system initialized ===
+2026-01-30 07:11:42,087 - main - INFO - Log file: logs/app_20260130_071142.log
+2026-01-30 07:11:42,088 - main - INFO - Log level: INFO
+2026-01-30 07:11:42,088 - main - INFO - Timestamp: 20260130_071142
+2026-01-30 07:11:42,108 - main - WARNING - Failed to import module 'routers.aihub': No module named 'pydantic_settings'
+2026-01-30 07:11:42,114 - main - WARNING - Failed to import module 'routers.auth': No module named 'sqlalchemy'
+2026-01-30 07:11:42,122 - main - WARNING - Failed to import module 'routers.classes': No module named 'sqlalchemy'
+2026-01-30 07:11:42,129 - main - WARNING - Failed to import module 'routers.custom_classes': No module named 'sqlalchemy'
+2026-01-30 07:11:42,135 - main - WARNING - Failed to import module 'routers.custom_exams': No module named 'sqlalchemy'
+2026-01-30 07:11:42,141 - main - WARNING - Failed to import module 'routers.exams': No module named 'sqlalchemy'
+2026-01-30 07:11:42,152 - main - WARNING - Failed to import module 'routers.health': No module named 'asyncpg'
+2026-01-30 07:11:42,159 - main - WARNING - Failed to import module 'routers.results': No module named 'sqlalchemy'
+2026-01-30 07:11:42,176 - main - WARNING - Failed to import module 'routers.settings': No module named 'httpx'
+2026-01-30 07:11:42,182 - main - WARNING - Failed to import module 'routers.storage': No module named 'httpx'
+2026-01-30 07:11:42,189 - main - WARNING - Failed to import module 'routers.submissions': No module named 'sqlalchemy'
+2026-01-30 07:11:42,194 - main - WARNING - Failed to import module 'routers.user': No module named 'asyncpg'
+2026-01-30 07:11:42,203 - main - WARNING - Failed to import module 'routers.users': No module named 'sqlalchemy'
+2026-01-30 07:11:42,204 - main - DEBUG - No routers discovered in package 'routers'
+2026-01-30 07:11:42,233 - main - INFO - === Application startup initiated ===
+2026-01-30 07:11:42,234 - main - INFO - === Application startup completed successfully ===

@@ -1,0 +1,41 @@
+{
+    "title": "submissions",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "exam_id": {
+            "type": "integer",
+            "description": "ID of the exam"
+        },
+        "student_id": {
+            "type": "integer",
+            "description": "ID of the student who submitted"
+        },
+        "answers": {
+            "type": "string",
+            "description": "JSON array of student answers"
+        },
+        "submitted_at": {
+            "type": "string",
+            "description": "Submission timestamp"
+        },
+        "score": {
+            "type": "number",
+            "description": "Total score achieved"
+        },
+        "graded": {
+            "type": "boolean",
+            "description": "Whether the submission has been fully graded"
+        }
+    },
+    "required": [
+        "id",
+        "exam_id",
+        "student_id",
+        "answers",
+        "submitted_at"
+    ]
+}

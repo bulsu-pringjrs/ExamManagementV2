@@ -1,0 +1,4 @@
+2026-01-30 08:37:15,123 - main - INFO - === Logging system initialized ===
+2026-01-30 08:37:15,123 - main - INFO - Log file: logs/app_20260130_083715.log
+2026-01-30 08:37:15,123 - main - INFO - Log level: INFO
+2026-01-30 08:37:15,124 - main - INFO - Timestamp: 20260130_083715

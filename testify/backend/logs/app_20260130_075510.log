@@ -1,0 +1,19 @@
+2026-01-30 07:55:10,544 - main - INFO - === Logging system initialized ===
+2026-01-30 07:55:10,545 - main - INFO - Log file: logs/app_20260130_075510.log
+2026-01-30 07:55:10,545 - main - INFO - Log level: INFO
+2026-01-30 07:55:10,545 - main - INFO - Timestamp: 20260130_075510
+2026-01-30 07:55:10,632 - main - WARNING - Failed to import module 'routers.aihub': No module named 'openai'
+2026-01-30 07:55:11,181 - main - WARNING - Failed to import module 'routers.auth': No module named 'jwt'
+2026-01-30 07:55:11,401 - main - INFO - Included router: routers.classes.router
+2026-01-30 07:55:11,403 - main - WARNING - Failed to import module 'routers.custom_classes': No module named 'jwt'
+2026-01-30 07:55:11,404 - main - WARNING - Failed to import module 'routers.custom_exams': No module named 'jwt'
+2026-01-30 07:55:11,434 - main - INFO - Included router: routers.exams.router
+2026-01-30 07:55:11,436 - main - INFO - Included router: routers.health.router
+2026-01-30 07:55:11,461 - main - INFO - Included router: routers.results.router
+2026-01-30 07:55:11,763 - main - INFO - Included router: routers.settings.router
+2026-01-30 07:55:11,791 - main - INFO - Included router: routers.storage.router
+2026-01-30 07:55:11,821 - main - INFO - Included router: routers.submissions.router
+2026-01-30 07:55:11,835 - main - INFO - Included router: routers.user.router
+2026-01-30 07:55:11,866 - main - INFO - Included router: routers.users.router
+2026-01-30 07:55:11,868 - main - INFO - === Application startup initiated ===
+2026-01-30 07:55:11,868 - main - INFO - === Application startup completed successfully ===

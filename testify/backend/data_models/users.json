@@ -1,0 +1,37 @@
+{
+    "title": "users",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "email": {
+            "type": "string",
+            "description": "User email address, unique"
+        },
+        "password": {
+            "type": "string",
+            "description": "Hashed password"
+        },
+        "role": {
+            "type": "string",
+            "description": "User role: super_admin, teacher, or student"
+        },
+        "full_name": {
+            "type": "string",
+            "description": "User's full name"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Account creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "email",
+        "password",
+        "role",
+        "full_name"
+    ]
+}

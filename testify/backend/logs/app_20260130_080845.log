@@ -1,0 +1,19 @@
+2026-01-30 08:08:45,905 - main - INFO - === Logging system initialized ===
+2026-01-30 08:08:45,905 - main - INFO - Log file: logs/app_20260130_080845.log
+2026-01-30 08:08:45,906 - main - INFO - Log level: INFO
+2026-01-30 08:08:45,906 - main - INFO - Timestamp: 20260130_080845
+2026-01-30 08:08:47,002 - main - INFO - Included router: routers.aihub.router
+2026-01-30 08:08:47,539 - main - INFO - Included router: routers.auth.router
+2026-01-30 08:08:47,577 - main - INFO - Included router: routers.classes.router
+2026-01-30 08:08:47,592 - main - INFO - Included router: routers.custom_classes.router
+2026-01-30 08:08:47,611 - main - INFO - Included router: routers.custom_exams.router
+2026-01-30 08:08:47,640 - main - INFO - Included router: routers.exams.router
+2026-01-30 08:08:47,642 - main - INFO - Included router: routers.health.router
+2026-01-30 08:08:47,667 - main - INFO - Included router: routers.results.router
+2026-01-30 08:08:47,690 - main - INFO - Included router: routers.settings.router
+2026-01-30 08:08:47,719 - main - INFO - Included router: routers.storage.router
+2026-01-30 08:08:47,737 - main - INFO - Included router: routers.submissions.router
+2026-01-30 08:08:47,750 - main - INFO - Included router: routers.user.router
+2026-01-30 08:08:47,781 - main - INFO - Included router: routers.users.router
+2026-01-30 08:08:47,783 - main - INFO - === Application startup initiated ===
+2026-01-30 08:08:47,783 - main - INFO - === Application startup completed successfully ===

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "email": "admin@testify.local",
+        "password": "$2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYfYGZvZvBS",
+        "role": "super_admin",
+        "full_name": "Super Administrator",
+        "created_at": "2026-01-29 10:00:00"
+    },
+    {
+        "id": 2,
+        "email": "teacher1@testify.local",
+        "password": "$2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYfYGZvZvBS",
+        "role": "teacher",
+        "full_name": "John Smith",
+        "created_at": "2026-01-29 10:05:00"
+    },
+    {
+        "id": 3,
+        "email": "teacher2@testify.local",
+        "password": "$2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYfYGZvZvBS",
+        "role": "teacher",
+        "full_name": "Sarah Johnson",
+        "created_at": "2026-01-29 10:06:00"
+    },
+    {
+        "id": 4,
+        "email": "student1@testify.local",
+        "password": "$2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYfYGZvZvBS",
+        "role": "student",
+        "full_name": "Alice Brown",
+        "created_at": "2026-01-29 10:10:00"
+    },
+    {
+        "id": 5,
+        "email": "student2@testify.local",
+        "password": "$2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYfYGZvZvBS",
+        "role": "student",
+        "full_name": "Bob Wilson",
+        "created_at": "2026-01-29 10:11:00"
+    },
+    {
+        "id": 6,
+        "email": "student3@testify.local",
+        "password": "$2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5GyYfYGZvZvBS",
+        "role": "student",
+        "full_name": "Carol Davis",
+        "created_at": "2026-01-29 10:12:00"
+    }
+]

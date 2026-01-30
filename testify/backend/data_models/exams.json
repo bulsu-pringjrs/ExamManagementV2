@@ -1,0 +1,56 @@
+{
+    "title": "exams",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "class_id": {
+            "type": "integer",
+            "description": "ID of the class this exam belongs to"
+        },
+        "title": {
+            "type": "string",
+            "description": "Exam title"
+        },
+        "description": {
+            "type": "string",
+            "description": "Exam description"
+        },
+        "duration_minutes": {
+            "type": "integer",
+            "description": "Exam duration in minutes"
+        },
+        "total_score": {
+            "type": "integer",
+            "description": "Total possible score"
+        },
+        "questions": {
+            "type": "string",
+            "description": "JSON array of question objects with type, content, options, correct_answer"
+        },
+        "availability_status": {
+            "type": "string",
+            "description": "enabled or disabled"
+        },
+        "created_by": {
+            "type": "integer",
+            "description": "Teacher ID who created the exam"
+        },
+        "created_at": {
+            "type": "string",
+            "description": "Exam creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "class_id",
+        "title",
+        "duration_minutes",
+        "total_score",
+        "questions",
+        "availability_status",
+        "created_by"
+    ]
+}
